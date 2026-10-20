@@ -1,5 +1,5 @@
-import axiosConifg from "../../Config/axiosConifg";
-import TokenClass from "../Service/AuthService";
+import axiosConifg from "../Config/axiosConifg";
+import TokenClass from "../component/Service/AuthService";
 
 
 const path = "/auth";

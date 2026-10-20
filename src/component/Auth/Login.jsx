@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { loginSubmit, signUpSubmit } from '../api/loginApi.jsx';
+import { loginSubmit, signUpSubmit } from '../../api/loginApi';
 import TokenClass from '../Service/AuthService.js';
 import { setAuthentication } from '../AuthGuard/AuthContext';
 
